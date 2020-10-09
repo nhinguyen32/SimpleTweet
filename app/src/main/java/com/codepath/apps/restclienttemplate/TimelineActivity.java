@@ -64,7 +64,7 @@ public class TimelineActivity extends AppCompatActivity {
         scrollListener = new EndlessRecyclerViewScrollListener(layoutManager) {
             @Override
             public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
-                Log.i(TAG, "onLoadMore" + page);
+                Log.i(TAG, "onLoadMore " + page);
                 loadMoreData();
             }
         };
