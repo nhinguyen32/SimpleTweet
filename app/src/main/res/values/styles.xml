@@ -11,6 +11,18 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="colorPrimary">#00acee</item>
+        <item name="colorControlNormal">#00acee</item>
+        <item name="colorControlActivated">#00acee</item>
+        <item name="colorControlHighlight">#00acee</item>
+    </style>
+
+    <style name="counterText" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">#bbbbbb</item>
+    </style>
+
+    <style name="counterOverride" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">#ff1111</item>
     </style>
 
 </resources>
